@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Learn Git</title>
+    <title>RU Hacks 20 | Git Workshop</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
-    <header>
-      <div>
+    <header id="header">
+      <div class="container">
         <h1>
-          Learn Git
+          RU Hacks 20 - Learn Git Workshop
         </h1>
       </div>
     </header>
-
-    <div>
-      <ul id="people"></ul>
-    </div>
+    <main class="container">
+      <h3>Contributors</h3>
+      <p>
+        Add your GitHub username to
+        <a
+          href="https://github.com/MaiHameed/ruhacks20-learn-github/blob/master/contributors.json"
+          >contributors.json</a
+        >
+        to add your profile.
+      </p>
+      <div id="contributors"></div>
+    </main>
 
     <script src="index.js"></script>
   </body>
